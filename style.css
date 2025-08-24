@@ -1,0 +1,50 @@
+/* Apply Inter font family globally */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Custom scroll behavior for smooth transitions */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Base styling for sections, consistent with Tailwind's approach */
+section {
+    padding-top: 4rem; /* Equivalent to py-16 */
+    padding-bottom: 4rem; /* Equivalent to py-16 */
+}
+@media (min-width: 768px) {
+    section {
+        padding-top: 6rem; /* Equivalent to md:py-24 */
+        padding-bottom: 6rem; /* Equivalent to md:py-24 */
+    }
+}
+
+/* Ensure links are block-level for better touch targets on mobile if needed */
+nav a {
+    display: inline-block; /* Or block on smaller screens if they stack */
+    padding: 0.5rem 0.75rem;
+}
+
+/* Hero Section with Background Image */
+.hero-with-image {
+    background-image: url('my-hero-picture.jpg'); /* Using your most recently provided image */
+    background-size: cover;
+    background-position: left 20%; /* Adjusted: Horizontally aligned to the left, vertically 20% from the top */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Optional: for a parallax-like effect */
+    background-color: #3B82F6; /* Fallback background color */
+    position: relative; /* Needed for overlay */
+}
+
+/* Overlay for text readability on top of the background image */
+.hero-overlay {
+    background-color: rgba(0, 0, 0, 0.55); /* Increased dark semi-transparent overlay for better contrast */
+    z-index: 1; /* Ensure overlay is below text but above background */
+}
+
+/* Ensure content inside hero is above the overlay */
+.hero-with-image .container {
+    position: relative;
+    z-index: 2;
+}

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratham Prabhu - Resume Website</title>
+    <!-- Inter font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS CDN - for basic utility classes and responsive design -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Link to your custom CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" xintegrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7W/2Qf5O4oT1iZg/p5l5z+x/N/I/D1l4K7/0K9FfS5Z5K1Z/T77n/f/j/A5A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="min-h-screen bg-gray-100 text-gray-900 antialiased">
+
+    <!-- Header Section -->
+    <header class="bg-gradient-to-r from-blue-600 to-indigo-700 py-6 shadow-lg fixed w-full z-50">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
+            <h1 class="text-4xl font-bold text-white mb-4 md:mb-0 rounded-md">Pratham Prabhu</h1>
+            <nav>
+                <ul class="flex flex-wrap justify-center space-x-4 md:space-x-6 text-lg">
+                    <li><a href="#home" class="text-white hover:text-blue-200 transition duration-300 ease-in-out rounded-md px-3 py-2">Home</a></li>
+                    <li><a href="#about" class="text-white hover:text-blue-200 transition duration-300 ease-in-out rounded-md px-3 py-2">About Me</a></li>
+                    <li><a href="#education-skills" class="text-white hover:text-blue-200 transition duration-300 ease-in-out rounded-md px-3 py-2">Education & Skills</a></li>
+                    <li><a href="#achievements" class="text-white hover:text-blue-200 transition duration-300 ease-in-out rounded-md px-3 py-2">Achievements</a></li>
+                    <li><a href="#projects" class="text-white hover:text-blue-200 transition duration-300 ease-in-out rounded-md px-3 py-2">Projects</a></li>
+                    <li><a href="#contact" class="text-white hover:text-blue-200 transition duration-300 ease-in-out rounded-md px-3 py-2">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" class="pt-24 md:pt-28"> <!-- Padding to account for fixed header -->
+        <!-- Hero Section -->
+        <section id="home" class="hero-with-image text-white py-20 md:py-32 text-center shadow-inner relative overflow-hidden">
+            <div class="hero-overlay absolute inset-0"></div>
+            <div class="container mx-auto px-4 relative z-10">
+                <h2 class="text-5xl md:text-6xl font-extrabold leading-tight mb-4 rounded-md">Hi, I'm Pratham Prabhu!</h2>
+                <p class="text-xl md:text-2xl mb-8">An MCA student passionate about Software Development and Game Development.</p>
+                <a href="#about" class="inline-block bg-white text-blue-700 hover:bg-blue-100 font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+                    Learn More About Me
+                </a>
+            </div>
+        </section>
+
+        <!-- About Me Section (for Profile Summary) -->
+        <section id="about" class="bg-white">
+            <div class="container mx-auto px-4 max-w-4xl">
+                <h3 class="text-4xl font-bold text-center mb-12 text-blue-700 rounded-md">About Me</h3>
+                <div class="bg-gray-50 p-8 rounded-lg shadow-md border border-gray-200">
+                    <p class="text-lg leading-relaxed mb-6">
+                        As a postgraduate student pursuing Master of Computer Applications (MCA) at Manipal Institute Of Technology, I am eager to start my career in tech. I have a solid foundation in programming languages like Java and C++, along with significant project experience.
+                    </p>
+                    <p class="text-lg leading-relaxed">
+                        I'm passionate about solving problems and continuously learning new technologies. I'm actively looking forward to contributing to a dynamic team and growing my skills in Software Development and Game Development.
+                    </p>
+                    <div class="text-center">
+                        <a href="PRATHAM-PRABHU-Resume.pdf" download="PRATHAM-PRABHU-Resume.pdf" class="inline-block mt-8 bg-blue-600 text-white hover:bg-blue-700 font-bold py-3 px-6 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+                            Download My Full Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Skills Section -->
+        <section id="education-skills" class="bg-gray-50">
+            <div class="container mx-auto px-4 max-w-4xl">
+                <h3 class="text-4xl font-bold text-center mb-12 text-blue-700 rounded-md">Education & Technical Skills</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-white p-8 rounded-lg shadow-md border border-gray-200">
+                        <h4 class="text-2xl font-semibold mb-4 text-indigo-700">Education</h4>
+                        <ul class="list-disc list-inside text-lg text-gray-700 space-y-3">
+                            <li>
+                                <span class="font-bold">Master of Computer Applications</span> (2nd Year)
+                                <br />Manipal Institute Of Technology (2024 - 2026)
+                            </li>
+                            <li>
+                                <span class="font-bold">B.Design In Game Design</span>
+                                <br />Artemisia College Of Art And Design (Graduated June 2024)
+                            </li>
+                            <li>
+                                <span class="font-bold">Class XII (CBSE) 82%</span>
+                                <br />Rajhans Vidyalaya (2018 - 2020)
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-md border border-gray-200">
+                        <h4 class="text-2xl font-semibold mb-4 text-indigo-700">Technical Skills</h4>
+                        <div class="flex flex-wrap gap-3 mb-6">
+                            <span class="bg-blue-200 text-blue-800 text-sm font-semibold px-3 py-1 rounded-full shadow-sm">C++</span>
+                            <span class="bg-green-200 text-green-800 text-sm font-semibold px-3 py-1 rounded-full shadow-sm">Java</span>
+                            <span class="bg-purple-200 text-purple-800 text-sm font-semibold px-3 py-1 rounded-full shadow-sm">Data Structures & Algorithms (DSA)</span>
+                            <span class="bg-yellow-200 text-yellow-800 text-sm font-semibold px-3 py-1 rounded-full shadow-sm">Object-Oriented Programming (OOP)</span>
+                            <span class="bg-red-200 text-red-800 text-sm font-semibold px-2.5 py-0.5 rounded-full">Unity Engine</span>
+                            <span class="bg-teal-200 text-teal-800 text-sm font-semibold px-2.5 py-0.5 rounded-full">VS Code</span>
+                            <span class="bg-orange-200 text-orange-800 text-sm font-semibold px-2.5 py-0.5 rounded-full">DBMS</span>
+                            <span class="bg-indigo-200 text-indigo-800 text-sm font-semibold px-2.5 py-0.5 rounded-full">SQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="bg-white">
+            <div class="container mx-auto px-4 max-w-4xl">
+                <h3 class="text-4xl font-bold text-center mb-12 text-blue-700 rounded-md">My Achievements</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Coursera: Excel Power Tools for Data Analysis -->
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-md border border-gray-200 hover:shadow-xl transition-shadow duration-300">
+                        <h4 class="text-2xl font-semibold mb-4 text-indigo-700">Excel Power Tools for Data Analysis</h4>
+                        <p class="text-gray-700">
+                            Completed this Coursera course, gaining proficiency in advanced Excel functions, Power Query, and Power Pivot for efficient data manipulation and insightful analysis.
+                        </p>
+                    </div>
+                    <!-- Coursera: Responsive Web Design -->
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-md border border-gray-200 hover:shadow-xl transition-shadow duration-300">
+                        <h4 class="text-2xl font-semibold mb-4 text-indigo-700">Responsive Web Design</h4>
+                        <p class="text-gray-700">
+                            Achieved certification in Responsive Web Design on Coursera, mastering techniques to build websites that adapt seamlessly to various screen sizes and devices using modern CSS and HTML practices.
+                        </p>
+                    </div>
+                    <!-- Coursera: Build Your First GUI App With Java -->
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-md border border-gray-200 hover:shadow-xl transition-shadow duration-300">
+                        <h4 class="text-2xl font-semibold mb-4 text-indigo-700">Build Your First GUI App With Java</h4>
+                        <p class="text-gray-700">
+                            Successfully completed this Coursera course, acquiring practical skills in Java to develop interactive graphical user interface (GUI) applications.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="bg-gray-50">
+            <div class="container mx-auto px-4 max-w-4xl">
+                <h3 class="text-4xl font-bold text-center mb-12 text-blue-700 rounded-md">My Projects</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- Project: Stack Ball -->
+                    <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200 hover:shadow-xl transition-shadow duration-300">
+                        <h4 class="text-2xl font-semibold mb-3 text-indigo-700">Stack Ball</h4>
+                        <p class="text-gray-700 mb-4">
+                            Developed a 3D level-based game in two weeks. This project involved close collaboration with teachers to formalize graphics and code, with a strong focus on optimization.
+                            It was tested successfully across both mobile and PC platforms.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-red-200 text-red-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">Unity Engine</span>
+                            <span class="bg-blue-200 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">C# (Implied with Unity)</span>
+                            <span class="bg-green-200 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">3D Game Development</span>
+                            <span class="bg-yellow-200 text-yellow-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">Cross-Platform Testing</span>
+                        </div>
+                        <div class="flex space-x-4">
+                            <a href="https://drive.google.com/file/d/1I4Q79egve36ZaXOD2GOdfDR_l0-KK29H/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline font-medium">Try it yourself</a>
+                        </div>
+                    </div>
+
+                    <!-- Project: HardestGame -->
+                    <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200 hover:shadow-xl transition-shadow duration-300">
+                        <h4 class="text-2xl font-semibold mb-3 text-indigo-700">HardestGame</h4>
+                        <p class="text-gray-700 mb-4">
+                            A personal favorite, this 2D game features simple mechanics designed for peak difficulty.
+                            I was responsible for creating the UI Design, 2D sprites, and implementing all core game mechanics.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-purple-200 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">2D Game Development</span>
+                            <span class="bg-teal-200 text-teal-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">UI Design</span>
+                            <span class="bg-orange-200 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">Sprite Creation</span>
+                            <span class="bg-pink-200 text-pink-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">Game Mechanics</span>
+                        </div>
+                    </div>
+
+                    <!-- Project: Weather Website -->
+                    <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200 hover:shadow-xl transition-shadow duration-300">
+                        <h4 class="text-2xl font-semibold mb-3 text-indigo-700">Weather Website</h4>
+                        <p class="text-gray-700 mb-4">
+                            Developed a responsive weather web application using HTML, CSS, and JavaScript. This project involved integrating real-time weather data from external APIs such as OpenWeather/WeatherAPI to provide up-to-date information.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-green-200 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">HTML</span>
+                            <span class="bg-blue-200 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">CSS</span>
+                            <span class="bg-yellow-200 text-yellow-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">JavaScript</span>
+                            <span class="bg-indigo-200 text-indigo-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">Web APIs</span>
+                            <span class="bg-red-200 text-red-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">Responsive Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact & Socials Section -->
+        <section id="contact" class="bg-blue-600 text-white">
+            <div class="container mx-auto px-4 max-w-2xl text-center">
+                <h3 class="text-4xl font-bold mb-8 rounded-md">Let's Connect!</h3>
+                <p class="text-lg mb-10">
+                    I'm always open to new opportunities and collaborations. Feel free to reach out to me via email or connect on my social channels!
+                </p>
+                <a href="mailto:pratham2002prabhu@gmail.com" class="inline-block bg-white text-blue-700 hover:bg-blue-100 font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105 mb-8">
+                    <i class="fas fa-envelope mr-2"></i> Email Me
+                </a>
+                <div class="flex justify-center space-x-6 mt-8">
+                    <!-- LinkedIn Link -->
+                    <a href="https://linkedin.com/in/prathamprabhu" target="_blank" rel="noopener noreferrer" class="text-white hover:text-blue-200 text-2xl md:text-3xl transition duration-300 ease-in-out transform hover:scale-110">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer id="main-footer" class="bg-gray-800 text-white py-6 text-center">
+        <div class="container mx-auto px-4">
+            <p>&copy; <span id="current-year"></span> Pratham Prabhu. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Link to your custom JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
